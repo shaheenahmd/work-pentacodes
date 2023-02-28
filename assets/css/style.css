@@ -462,6 +462,11 @@ color: black;
         font-weight: 900;
         color: #F1F8F7;
     }
+    .service .heading p {
+        padding-top: 50px;
+        text-align: left;
+        font-size: 1rem;
+    }
     
 
 
@@ -500,7 +505,7 @@ color: black;
     }
     .about h2 {
         font-size: 3.5rem;
-        padding-left: 80px;
+        padding-left: 100px;
         font-weight: 900;
         color: #F1F8F7;
     }
@@ -515,6 +520,7 @@ color: black;
     .service .banner-in .text h5 {
         padding-bottom: 5px;
         font-weight: 600;
+        font-size: 1rem;
     }
     .service p {
         font-size: 14px;
@@ -618,6 +624,10 @@ color: black;
     .service p {
         font-size: 14px;
         max-width: 350px;
+    }
+    .service .heading h3 {
+        color: var(--ash);
+        font-size: 1.7rem;
     }
     
 }
