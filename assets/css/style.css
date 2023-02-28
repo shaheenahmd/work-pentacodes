@@ -439,6 +439,9 @@ color: black;
         font-size: 17px;
         max-width: 600px;
     }
+    .buttons{
+        display: block;
+       }
 
     .hero .social{
         top: 115px;
@@ -455,18 +458,7 @@ color: black;
         color: white;
         font-size: 13px;
     }
-    .service h2 {
-        padding-top: 50px;
-        font-size: 5rem;
-        padding-left: 50px;
-        font-weight: 900;
-        color: #F1F8F7;
-    }
-    .service .heading p {
-        padding-top: 50px;
-        text-align: left;
-        font-size: 1rem;
-    }
+    
     
 
 
@@ -525,6 +517,19 @@ color: black;
     .service p {
         font-size: 14px;
     }
+
+    .service h2 {
+        padding-top: 50px;
+        font-size: 5rem;
+        padding-left: 50px;
+        font-weight: 900;
+        color: #F1F8F7;
+    }
+    .service .heading p {
+        padding-top: 50px;
+        text-align: left;
+        font-size: 1rem;
+    }
     
        
 
@@ -542,7 +547,7 @@ color: black;
     
 
     .hero{
-        height: 650px;
+        height: 680px;
     }
     .hero .social{
         position: absolute;
@@ -580,6 +585,10 @@ color: black;
         line-height: 60px;
     }
 
+    .buttons{
+        display: block;
+    }
+
    
 
     /* about section */
@@ -590,6 +599,10 @@ color: black;
        
     }.about .heading h3 {
         font-size: 1.6rem;
+    }
+    .about .text p{
+        text-align: center;
+        padding-left: 5px;
     }
 
 
@@ -623,7 +636,7 @@ color: black;
    
     .service p {
         font-size: 14px;
-        max-width: 350px;
+       
     }
     .service .heading h3 {
         color: var(--ash);
