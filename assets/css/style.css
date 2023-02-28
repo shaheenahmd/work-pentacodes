@@ -117,15 +117,36 @@ a{
    
 }
 
+.hero .social{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 138px;
+    left: 20px;
+    text-align: center;
+}
+.hero .social i{
+    margin-top: 25px;
+    color: #fff;
+    font-size: 1.2rem;
+    
+}
+
+.hero .social h6{
+    transform: rotate(270deg);
+    margin-bottom: 50px;
+    color: white;
+    font-size: 1.2rem;
+}
 
 .hero .contents{
     position: absolute;
     top: 80px;
-    left: 100px;
+    left: 120px;
 }
 .hero .heading h2{
 font-size: 4rem;
-line-height: 79px;
+line-height: 89px;
 font-weight: 500;
 color: #161616;
 }
@@ -189,7 +210,8 @@ color:var(--green);
 .about .green{
     background-color: #24B14B;
     color: #fff;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0,0.1);
+    margin-top: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0,0.1);
 
 }
 .about .image{
@@ -244,11 +266,56 @@ form .submit{
 }
 
 
+/* service section */
+.service{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #D9D9D9;
+
+}
+.service h2{
+    padding-top: 50px;
+    font-size: 7rem;
+    padding-left: 50px;
+    font-weight: 900;
+    color: #F1F8F7;
+}
+.service .heading h6{
+color:var(--green);
+}
+.service .heading h3{
+    color: var(--ash);
+    font-size: 2.5rem;
+}
+.service .heading p{
+    padding-top: 50px;
+    text-align: left;
+}
+
+.service-banner{
+    background-color: #F9DE80;
+    height: 500px;
+}
+.service .serv-container{
+    background-color: #07f078;
+    width: 100%;
+    height: 400px;
+
+}
+.service .banner-in{
+    background-color:#D9D9D9 ;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+/* RESPONSIVE SECTION ------------------------------------------------------------------ */
+/* RESPONSIVE SECTION ------------------------------------------------------------------ */
 @media screen and (max-width:1208px) {
     .hero .contents {
         position: absolute;
         top: 50px;
-        left: 40px;
+        left: 70px;
         min-width: 600px;
     }
     .about h2 {
@@ -257,6 +324,22 @@ form .submit{
         font-weight: 900;
         color: #F1F8F7;
     }
+    .hero .social{
+        top: 115px;
+        left: 0px;
+    }
+    .hero .social i{
+        margin-top: 15px;
+        font-size: 13px;
+        
+    }
+    
+    .hero .social h6{
+        margin-bottom: 50px;
+        color: white;
+        font-size: 13px;
+    }
+
    .buttons{
     display: none;
    }
@@ -300,12 +383,30 @@ form .submit{
     .hero .para p {
         font-size: 1.2rem;
         margin-top: 50px;
-        font-size: 18px;
-
-
-        
+        font-size: 17px;
+        max-width: 600px;
     }
 
+    .hero .social{
+        top: 115px;
+        left: -5px;
+    }
+    .hero .social i{
+        margin-top: 15px;
+        font-size: 13px;
+        
+    }
+    
+    .hero .social h6{
+        margin-bottom: 50px;
+        color: white;
+        font-size: 13px;
+    }
+    
+
+
+
+    /* about section---------- */
     .about .text p {
         padding-top: 20px;
         font-size: 18px;
@@ -366,15 +467,34 @@ form .submit{
     .hero{
         height: 650px;
     }
+    .hero .social{
+        position: absolute;
+        top: 155px;
+        left: -15px;
+        text-align: center;
+    }
+    .hero .social i{
+        margin-top: 15px;
+        color: #fff;
+        font-size: 12px;
+        
+    }
+    
+    .hero .social h6{
+        margin-bottom: 50px;
+        color: white;
+        font-size: 12px;
+    }
+    
+  
     .hero .contents{
         position: absolute;
         top: 100px;
-        left: 15px;
+        left: 35px;
     }
     .hero .para p {
-        font-size: 0.9rem;
-        font-size:17px;
-        max-width: 400px;
+        font-size:14px;
+        max-width: 350px;
         padding-right: 15px;
     }
     .hero .heading h2 {
